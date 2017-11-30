@@ -1,7 +1,9 @@
 require.config({
 	baseUrl : "/",
 	paths : {
-		"jquery" : "lib/jquery/jquery-1.12.4.min",
-		"load" : "js/loadHeaderFooter"
+		"jquery" : ["https://code.jquery.com/jquery-1.12.4.min", "lib/jquery/jquery-1.12.4.min"],
+		"cookie" : "lib/jquery_plugins/jquery.cookie",
+		"load" : "js/loadHeaderFooter",
+		"template" : "lib/arttemplate/template.js"
 	}
 });
